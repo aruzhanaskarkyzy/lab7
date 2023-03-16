@@ -216,3 +216,11 @@ for (var i = 0; i < pr.length; i++) {
 let linebreak3 = document.createElement("hr");
 document.body.appendChild(linebreak3);
 
+let nothing = document.createElement("a");
+document.body.appendChild(nothing);
+nothing.setAttribute('id', 'no');
+nothing.setAttribute('href', 'https://www.google.com/')
+var wow = document.getElementById("no");
+var wow2 = wow.getAttribute("href");
+console.log(wow2)
+
